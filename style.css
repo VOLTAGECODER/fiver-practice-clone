@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #00ff00; /* Green color on hover */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f5f5f5;
+}
+
+/* Globe icon */
+.fa-globe {
+    margin-right: 5px;
+}
+
+/* Join button styles */
+.join-button {
+    border: 2px solid #fff; /* Add a white square border */
+    border-radius: 0;
+    color: #000;
+    padding: 10px 20px;
+    border: 2px solid #000; /* Add a border */
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #00ff00; /* Green color on hover */
+    color: #fff;
+}
+/* Remove black background color from the navbar */
+.navbar {
+    background-color: transparent; /* Set background to transparent */
+    color: white; /* Set text color to white */
+    padding: 10px 0;
+}
+
+/* Style for the Fiverr logo */
+.fiverr-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 20px; /* Add margin to separate it from other navbar elements */
+}
+/* Add a light transparent background color to the text content */
+.best-part .text-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity (last value) as needed */
+    padding: 20px; /* Add padding to give space around the content */
+    border-radius: 10px; /* Add rounded corners to the background */
+}
+
+
+/* Custom CSS to reduce the size of the search button */
+.btn-search {
+    padding: 20px 20px; /* Adjust padding as needed to reduce button size */
+    font-size: 14px; /* Adjust font size as needed to reduce button size */
+    width:50px;
+}
+.carousel-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+  
+  .carousel-inner {
+    max-width: 100%;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+/* Your existing CSS */
+/* Style for the logo section */
+.logo-section {
+    background-color: #0d0533; /* Blue background color */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for the text content on the left side */
+.text-content {
+    margin-top: 20px; /* Add margin to separate it from the top */
+}
+
+.text-content h2 {
+    font-weight: bold;
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.text-content p {
+    margin-bottom: 10px; /* Spacing between paragraphs */
+}
+
+.logo-maker-button {
+    display: inline-block;
+    background-color: #fff; /* White background color */
+    color: #007bff; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.logo-maker-button:hover {
+    background-color: #007bff; /* Hover background color */
+    color: white; /* Hover text color */
+    text-decoration: none;
+}
+
+/* Style for the image on the right side */
+.image-wrapper img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+/* Style for the "Suddenly it's all so doable." section */
+/* Styles for the doable section */
+.doable-section {
+    background-color: #8B0000; /* Maroon background color */
+    color: white; /* Text color */
+    padding: 40px 0; /* Padding top and bottom */
+}
+
+/* Style for the text */
+.doable-text {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style for the "Join Fiverr" button */
+.doable-button {
+    background-color: green; /* Green background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding top and bottom */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* Make the button a block element */
+    margin-top: 10px; /* Add margin to separate it from the text */
+}
+
+/* Style for the image */
+.doable-image {
+    width: 100%; /* Set the image width to 100% of the container */
+    float: right; /* Float the image to the right */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding (optional) */
+}
+
+/* More CSS styles if needed */
+
+.custom-text {
+    font-style: italic;
+    line-height: 1.2; /* Adjust line-height as needed */
+}
+/* Adjust the alignment of the globe icon and text */
+.nav-item .nav-link i.fas.fa-globe {
+    margin-right: 5px; /* Add spacing between the icon and text */
+}
+
+/* You can customize the globe icon's size and color here */
+.nav-item .nav-link i.fas.fa-globe {
+    font-size: 16px; /* Adjust the size as needed */
+    color: #007bff; /* Change the color to your preference */
+}
+
+
+/* Add styles for the buttons and container */
+.button-container {
+    text-align: center; /* Center-align the buttons */
+    margin-top: 20px; /* Add margin space */
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px; /* Add rounded corners */
+    background-color: green; /* Green background color */
+    color: white; /* White text color */
+    margin-right: 10px; /* Add spacing between buttons */
+    text-decoration: none; /* Remove underlines */
+    font-weight: bold; /* Add bold text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+
+/* Style for the "Popular:" label */
+.popular-label {
+    font-weight: bold; /* Add bold text */
+    margin-right: 10px; /* Add spacing between label and buttons */
+}
+
+.hero-section {
+    background-image: url('../images/women.jpg');
+    background-size: cover; /* Adjust as needed: 'cover', 'contain', 'auto', etc. */
+    background-position: center ; /* Adjust as needed: 'center center', 'top left', '50% 30%', etc. */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fixed background for a parallax effect (optional) */
+    padding: 60px 10px; /* Add padding as needed */
+    color: white;
+}
+
+
+/* styles.css */
+/* Style headings and paragraphs */
+.text-content h4 {
+    background-color: #e0e8f9; /* Light blue background color */
+    padding: 5px 10px; /* Add padding to headings */
+    display: inline-block; /* Make headings and paragraphs inline-block for background color to apply properly */
+}
+
+.text-content p {
+    margin-bottom: 10px;
+}
+.category-icons {
+    display: flex;
+    justify-content: space-around; /* Add space between icons */
+    align-items: center; /* Center align icons and text vertically */
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon i {
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-bottom: 10px; /* Add spacing between icon and text */
+}
+
+.business-solutions {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left; /* Align text to the left */
+}
+
+.business-solutions h3 {
+    font-weight: bold; /* Font weight */
+}
+
+.sub-heading {
+    font-weight: bold; /* Font weight */
+    margin-top: 10px; /* Spacing from the heading */
+}
+
+.business-solutions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.business-solutions li {
+    margin-top: 10px; /* Spacing between items */
+}
+
+.business-solutions i {
+    margin-right: 10px; /* Spacing between check icon and text */
+}
+
+/* Styles for the Learn More button */
+.learn-more-button {
+    display: inline-block;
+    background-color: white; /* White background color */
+    color: #007bff; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; /* Font weight */
+    float: left; /* Float the button to the right */
+    margin-top: -40px; /* Adjust margin to overlap the blue background */
+}
+
+.learn-more-button:hover {
+    background-color: #007bff; /* Hover background color */
+    color: white; /* Hover text color */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+
+/* Style for the footer section */
+.footer-section {
+    background-color: rgba(167, 187, 206, 0.8); /* Transparent black background */
+    color: rgb(255, 255, 255); /* Text color */
+    padding: 20px 0; /* Adjust padding as needed */
+}
+/* Footer */
+.footer a {
+    color: rgb(155, 155, 155) !important;
+  }
+  
+  .footer .footer-links li {
+    margin: 14px 0;
+  }
+  
+  .footer .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social li:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+
+
